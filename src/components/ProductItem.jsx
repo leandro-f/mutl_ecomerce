@@ -15,17 +15,17 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     margin: 10,
-    backgroundColor: '#fff', // Puedes ajustar esto según tu tema
+    backgroundColor: '#fff', 
     borderRadius: 10,
-    elevation: 3, // Sombra para Android
-    shadowOpacity: 0.3, // Sombra para iOS
+    elevation: 3, 
+    shadowOpacity: 0.3,
     shadowRadius: 2,
     shadowOffset: { width: 0, height: 2 },
   },
   image: {
     width: '100%',
-    height: 150, // Puedes ajustar esto según tus necesidades
-    borderTopLeftRadius: 10, // Asegúrate de que los bordes coincidan con el borde del card
+    height: 150, 
+    borderTopLeftRadius: 10,
     borderTopRightRadius: 10,
   },
   text: {

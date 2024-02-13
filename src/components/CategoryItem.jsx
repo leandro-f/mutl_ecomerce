@@ -16,21 +16,21 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    marginVertical: 15, // Añade un pequeño espacio vertical entre los botones
+    marginVertical: 15, 
   },
   button: {
-    backgroundColor: '#007bff', // Un azul estilo botón
+    backgroundColor: '#007bff',
     paddingVertical: 10,
     paddingHorizontal: 20,
-    borderRadius: 20, // Bordes redondeados para el aspecto de botón
-    width: 250, // Ancho fijo para todos los botones
-    elevation: 3, // Sombra para Android
+    borderRadius: 20, 
+    width: 250,
+    elevation: 3, 
     shadowRadius: 5,
     shadowOffset: { width: 1, height: 1 },
-    alignItems: 'center', // Asegura que el texto esté centrado en el botón
+    alignItems: 'center', 
   },
   text: {
-    color: '#ffffff', // Texto blanco para que resalte sobre el botón azul
+    color: '#ffffff', 
     fontSize: 18,
     textAlign: 'center',
   },

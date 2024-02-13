@@ -15,7 +15,7 @@ export default Home;
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#5E84F2', // Este es el color de fondo para el contenedor
+    backgroundColor: '#5E84F2', 
     flex: 1,
     width: "100%",
     alignItems: "center",

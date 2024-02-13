@@ -9,7 +9,7 @@ function ItemListCategories({ category }) {
   const [keyword, setKeyword] = useState("");
 
   useEffect(() => {
-    // Filtrar productos cuando la categoría cambia o cuando se introduce una palabra clave.
+
     const filteredProducts = allProducts
       .filter(product => product.category === category)
       .filter(product => keyword === "" || product.name.toLowerCase().includes(keyword.toLowerCase()));
@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
     
   },
   list: {
-    width: '100%', // Asegúrate de que la lista ocupe todo el ancho
+    width: '100%', 
   },
 });
 

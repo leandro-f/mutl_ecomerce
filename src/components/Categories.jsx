@@ -22,7 +22,7 @@ export default Categories;
 const categoryListStyles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#5E84F2', // Este es el color de fondo para el contenedor
+    backgroundColor: '#5E84F2', 
     alignItems: 'center',
     justifyContent: 'center',
   },
